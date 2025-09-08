@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AIAC - Association of Independent App Creators</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://unpkg.com/thin.css">
+
+  <style>
+    body {
+      font-family: 'Chicago', 'Geneva', 'Helvetica', sans-serif;
+      background-color: #c0c0c0;
+      margin: 0;
+      padding: 30px;
+      color: #000000;
+    }
+    .container {
+      background-color: #ffffff;
+      border: 2px solid #808080;
+      padding: 0;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .title-bar {
+      background-color: #c0c0c0;
+      border-bottom: 1px solid #808080;
+      padding: 6px 12px;
+      font-size: 12px;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .close-box {
+      width: 12px;
+      height: 12px;
+      background-color: #c0c0c0;
+      border: 1px solid #808080;
+      margin-right: 6px;
+    }
+    .content {
+      padding: 30px;
+    }
+    h1 {
+      color: #000000;
+      text-align: center;
+      margin: 0 0 20px 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .subtitle {
+      text-align: center;
+      color: #000000;
+      font-size: 12px;
+      margin-bottom: 25px;
+      font-weight: normal;
+    }
+    .description {
+      font-size: 12px;
+      color: #000000;
+      margin-bottom: 25px;
+      line-height: 1.3;
+      text-align: left;
+    }
+    .button {
+      background-color: #c0c0c0;
+      color: #000000;
+      padding: 6px 16px;
+      text-decoration: none;
+      border: 1px solid #808080;
+      font-family: 'Chicago', 'Geneva', 'Helvetica', sans-serif;
+      font-size: 12px;
+      display: inline-block;
+      margin: 8px;
+    }
+    .button:hover {
+      background-color: #808080;
+    }
+    .button:active {
+      background-color: #808080;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .icon {
+      width: 32px;
+      height: 32px;
+      background-color: #ffffff;
+      border: 1px solid #808080;
+      margin: 0 auto 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+    .desktop-icon {
+      display: inline-block;
+      text-align: center;
+      margin: 15px;
+      width: 60px;
+    }
+    .desktop-icon .icon {
+      margin: 0 auto 2px;
+    }
+    .desktop-icon .label {
+      font-size: 10px;
+      color: #000000;
+      text-align: center;
+      word-wrap: break-word;
+    }
+    .file-tree {
+      font-family: 'Courier New', monospace;
+      font-size: 11px;
+      background-color: #f0f0f0;
+      border: 1px solid #808080;
+      padding: 12px;
+    }
+    .tree-item {
+      margin: 2px 0;
+      color: #000000;
+    }
+    .tree-item.folder {
+      font-weight: bold;
+    }
+    .tree-item.file a {
+      color: #0000ff;
+      text-decoration: underline;
+    }
+    .tree-item.file a:hover {
+      color: #ff0000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title-bar">
+      <div class="close-box"></div>
+      <span>AIAC - Association of Independent App Creators</span>
+      <div></div>
+    </div>
+    
+    <div class="content">
+      <h1>AIAC</h1>
+      <p class="subtitle">The Association of Independent App Creators</p>
+      
+      <p class="description">
+        AIAC is a community built for independent app creators who design, build, and launch apps outside of big tech. Whether you're an indie developer, designer, entrepreneur, or product creator, you're in the right place!
+      </p>
+      
+      <div class="cta">
+        <a href="https://discord.gg/hPep65f4PB" target="_blank" class="button">Join Our Discord</a>
+      </div>
+      
+      <h3 class="margin--top-lg">Resources</h3>
+      <div class="file-tree margin--top-sm">
+        <ul class="reset">
+          <li class="tree-item folder">📁 Boilerplates</li>
+          <ul class="padding--left-sm reset">
+            <li class="tree-item file">├── <a href="https://github.com/indieappcreators/vite-vue-firebase" target="_blank">vite-vue-firebase</a></li>
+            <li class="tree-item file">└── <a href="https://github.com/indieappcreators/vue-react-firebase" target="_blank">vue-react-firebase</a></li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div style="text-align: center; margin-top: 40px;">
+    <div class="desktop-icon">
+      <div class="icon">📱</div>
+      <div class="label">AIAC</div>
+    </div>
+    <div class="desktop-icon">
+      <div class="icon">👥</div>
+      <div class="label">Community</div>
+    </div>
+    <div class="desktop-icon">
+      <div class="icon">💻</div>
+      <div class="label">Developers</div>
+    </div>
+    <div class="desktop-icon">
+      <div class="icon">🚀</div>
+      <div class="label">Launch</div>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
